@@ -1,8 +1,8 @@
 package com.codegym.smartphonestore.service.impl;
 
-import com.codegym.phonestoremanager.model.OrderDetail;
-import com.codegym.phonestoremanager.repository.OrderDetailRepository;
-import com.codegym.phonestoremanager.service.IOrderDetailService;
+import com.codegym.smartphonestore.model.OrderDetail;
+import com.codegym.smartphonestore.repository.OrderDetailRepository;
+import com.codegym.smartphonestore.service.IOrderDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
