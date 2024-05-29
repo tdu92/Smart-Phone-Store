@@ -29,7 +29,6 @@ public class OrderDetailService implements IOrderDetailService {
     }
     public void remove(Long id) {
         OrderDetail orderDetail = orderDetailRepository.findById(id).get();
-        orderDetail.setStatus("DELETED");
         orderDetailRepository.save(orderDetail);
     }
 

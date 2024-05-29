@@ -41,7 +41,6 @@ public class OrderService implements IOrderService {
     }
     public void remove(Long id) {
         Order order = orderRepository.findById(id).get();
-        order.setStatus("DELETED");
         orderRepository.save(order);
     }
 
